@@ -6,9 +6,6 @@
 ## Motivation
 The task was to take existing code and refactor it to make more accessible. The client is a marketing agency who wanted their site to be optimized for search engines.
 
-must contain at minimum a description of what the project is,
-screenshots of essential code
-
 ## Tech Used
 Built with 
 * [VS Code](https://code.visualstudio.com/)
@@ -29,11 +26,12 @@ Now, when Site Optimization is clicked by the user, it responds correctly:
             gif walkthroughs of the application functioning.
 
 ![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
-Add screenshots inside the repo
 
 It needed a separate class that could link down to the appropriate section of the page.
 
-2. The CSS and HTML were cleaned up by removing redundant classes and consolidating any of the same material into one class. The benefits class used to be separated into three **DIFFERENT** classes.
+
+2. The CSS and HTML were cleaned up by removing redundant classes and consolidating any of the same material into one. 
+    The class below used to be separated into three **DIFFERENT** classes; search engine optimization, Online Reputation management, and social media marketing. Now all properties and values are under a single class:
 
 
         .benefits {
@@ -48,7 +46,14 @@ It needed a separate class that could link down to the appropriate section of th
             background-color: #2a607c;
             color: #ffffff;
 
-The same with combining images. Instead of listing out the css for each individual image in the content section of your html file, you can combine classes into *.content img* or *.benefits img*
+The same goes with combining images. Instead of listing out the css code for each individual image in the content section of your html file, this **new** code will combine classes into *.content img*:
+        
+            .content img {
+                max-height: 200px;
+            }   
+
+
+3. To make more accessibile, this website needed to include an *alt* attribute on each image. This specifies an alternate text for an image, if the image cannot be displayed. This is useful if the user uses a screen reader.
 
 
 
