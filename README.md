@@ -58,3 +58,7 @@ The same goes with combining images. Instead of listing out the css code for eac
 
 
 This should make the website and html flow more nicely and by cleaning up the css, the file is now more organized as well as being more accessible.
+
+
+*Towards the end of this project, I moved this repository from the class homework file into a new file. See previous commits before this change*
+[here](https://github.com/linneagear/Code-Refactoring/commits/master)
